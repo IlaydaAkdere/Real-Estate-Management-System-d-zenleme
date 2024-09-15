@@ -1,0 +1,157 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgba(243, 239, 239, 0.741);
+        }
+
+        .title {
+            margin-left: 20px;
+            padding: 10px;
+        }
+
+        .search-container {
+            float: right;
+            margin-right: 545px;
+            margin-top: -60px;
+        }
+
+        .width {
+            width: 400px;
+            height: 35px;
+            border-radius: 6px;
+        }
+
+        .color {
+            color: red;
+        }
+
+        .girisyap {
+            border: 1px solid rgb(185, 184, 184);
+            width: 150px;
+            height: 40px;
+            border-radius: 25px;
+            margin-left: 660px;
+            margin-top: -60px;
+        }
+
+        .free {
+            border: 1px solid rgb(185, 184, 184);
+            width: 150px;
+            height: 40px;
+            border-radius: 25px;
+            margin-left: 830px;
+            margin-top: -42px;
+            text-align: center;
+            background-color: red;
+            color: #fff;
+            font-size: bold;
+        }
+
+        .yazi1 {
+            margin-left: 13px;
+        }
+
+        .yazi2 {
+            margin-top: 9px;
+        }
+
+        .icon {
+            margin-left: 105px;
+            font-size: 25px;
+            margin-top: -31px;
+        }
+
+        .card1 {
+            width: 300px;
+            height: 270px;
+            display: inline-block;
+            background-color: rgb(199, 197, 194);
+            float: left;
+        }
+
+        .card2 {
+            width: 300px;
+            height: 270px;
+            display: inline-block;
+            background-color: rgb(199, 197, 194);
+            margin-left: 155px;
+        }
+
+        .card3 {
+            width: 450px;
+            height: 270px;
+            display: inline-block;
+            background-color: rgb(199, 197, 194);
+            float: right;
+        }
+
+        .card2 {
+            width: 300px;
+            height: 270px;
+            display: inline-block;
+            background-color: rgb(199, 197, 194);
+            margin-left: 155px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 class="title">YÖNEL EMLAK</h2>
+    <div class="search-container">
+        <form action="/search">
+            <input type="text" placeholder="Konum, ilan no ya da emlak ofisi adı ile arayın (örn 1234-123456)" name="q" class="width">
+
+        </form>
+    </div>
+    <div class="girisyap">
+        <div class="yazi1">
+            Giriş yap <br>veya
+            <span class="color">üye ol</span>
+        </div>
+        <div class="icon">
+            <i class="fa-regular fa-user"></i>
+        </div>
+    </div>
+    </div>
+    <div class="free">
+        <div class="yazi2">Ücretsiz ilan ver</div>
+    </div>
+    <div class="card1" style="width: 18rem;">
+        <img class="card-img-top" src="image.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">house1</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia tempora reprehenderit officiis quidem, adipisci voluptatem. Minima architecto iusto enim..</p>
+            <a href="https://www.hepsiemlak.com/istanbul-sariyer-maden-satilik/daire/0-42985143" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <div class="card2" style="width: 18rem;">
+        <img class="card-img-top" src="image copy.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">house2</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia tempora reprehenderit officiis quidem, adipisci voluptatem. Minima architecto iusto enim.</p>
+            <a href="https://www.hepsiemlak.com/istanbul-bakirkoy-senlikkoy-satilik/daire/133955-137" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+    <div class="card3" style="width: 18rem;">
+        <img class="card-img-top" src="image copy 2.png" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">house3</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit quia tempora reprehenderit officiis quidem, adipisci voluptatem. Minima architecto iusto enim.</p>
+            <a href="https://www.hepsiemlak.com/proje/ankara-ankara-golbasi/nest-incek-projesi-6611" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </div>
+
+</body>
+
+</html>
